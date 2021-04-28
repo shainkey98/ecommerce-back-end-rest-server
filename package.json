@@ -1,7 +1,7 @@
 {
-  "name": "ecommerce-backend",
+  "name": "mern-back-end",
   "version": "1.0.0",
-  "description": "This is backend of mern ecommerce project",
+  "description": "This is backend of ecommerce flipkart clone project",
   "main": "index.js",
   "scripts": {
     "start": "node ./src/index.server.js"
@@ -9,25 +9,29 @@
   "keywords": [
     "ecommerce",
     "mern",
+    "project",
+    "backend",
     "api",
-    "project"
+    "api"
   ],
-  "author": "",
+  "author": "Shainkey",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.875.0",
-    "bcrypt": "^5.0.1",
+    "aws-sdk": "^2.809.0",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "express-validator": "^6.10.0",
+    "express-validator": "^6.6.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.12.0",
+    "mongoose": "^5.9.27",
     "multer": "^1.4.2",
     "multer-s3": "^2.9.0",
-    "nodemon": "^2.0.7",
-    "shortid": "^2.2.16",
-    "slugify": "^1.4.7"
+    "shortid": "^2.2.15",
+    "slugify": "^1.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
