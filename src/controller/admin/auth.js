@@ -66,20 +66,17 @@ exports.signin = (req, res) => {
           user: { _id, firstName, lastName, email, role, fullName },
         });
       } else {
-        alert("Invalid Password")
         return res.status(400).json({
           message: "Invalid Password",
         });
       }
     } else {
-      alert("Something went wrong")
       return res.status(400).json({ message: "Something went wrong" });
     }
   });
 };
 
 exports.signout = (req, res) => {
-  alert("Signout successfully...!")
   res.clearCookie("token");
   res.status(200).json({
     message: "Signout successfully...!",
